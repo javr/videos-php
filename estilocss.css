@@ -1,0 +1,160 @@
+/* estilos principales de la pagina*/
+
+body{
+	
+	/*color: #ff0000;
+	font-size: 24;*/
+	font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 10px;
+}
+
+.texto_resaltado{
+
+	color: ff08ff;
+	font-weight: 760;
+	font-size: 22px;
+	font-family: Arial,Tahoma, Georgia, Sans-serif;
+
+}
+
+a{
+
+	color: #333333;
+	text-decoration: none;
+	border: none;
+
+
+}
+
+a:hover{
+	color: #cccccc
+}
+
+#contents{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10%;
+	background-color: azure;
+}
+
+.bloque_dcha{
+
+	float: right;
+		width: 40%
+
+}
+
+.bloque_izda{
+
+	display: 0%;
+	width: 40%;
+
+}
+
+ul{
+
+	list-style: none;
+	padding: 10px;
+}
+nav ul{
+
+	padding-left: 0px;
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+nav.horizontal ul li{
+
+	display: inline-block;
+}
+
+#imagen_fondo{
+
+	width: 100;
+	height: 100;
+	background-image: url(assets/imagenes/raspberry_shortcake_min.jpg);
+	background-repeat: no-repeat;
+	background-position: -35px -10px;
+}
+
+a{
+
+text-decoration: none;
+color: #aaff00;
+font-weight: 700;
+
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+td.col2{
+	width:  40%;
+}
+
+td.col1{
+
+width: 40;
+
+}
+
+
+table, td, th{
+
+	border: 3px solid #ffffff;
+
+
+}
+
+td{
+	background-color: beige;
+}
+
+thead{
+
+	background-color: burlywood;
+}
+
+td, th{
+
+	padding: 3px 15px;
+}
+
+
+nav ul{
+    padding-left: 0px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #aa0000;
+    font-weight: 700;
+}
+
+
+textarea {
+    resize: none;
+    width: 400px;
+    height: 120px;
+}
+
+label {
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
